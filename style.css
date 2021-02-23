@@ -1,0 +1,200 @@
+body {
+    font-family: garamond;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding-top: 1px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-style: garamond;
+    border-bottom: rgba(0, 0, 0, 0.541);
+    font-weight: 100;
+    font-size: 30px;
+    font-stretch: extra-expanded;
+    font-variant: small-caps;
+  }
+/*Style headings*/
+h1{
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-decoration: underline #756d645d;
+}
+h4{
+  font-weight: bold;
+  font-size: 26px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-decoration: underline #756d645d;
+  
+}
+h5{
+  font-weight: bold;
+  font-size: 26px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+/*Style paragraphs*/
+p{
+font-size: 20px;
+text-align: center;
+}
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 12px 14px;
+    text-decoration: underline;
+  }
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color:#faddb71f;
+    color: black;
+  }
+
+  .flex-container{
+    font-weight: lighter;
+    position: relative;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    background-color: #faddb72d;
+  }
+  .flex-container > div {
+    font-weight: lighter;
+    background-color: #faddb72d;
+    width: 500px;
+    height: fit-content;
+    margin: 5px;
+    padding: 50px;
+    font-size: 30px;
+  }
+  .flex-container-two{
+    font-weight: lighter;
+    position: relative;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    background-color: #faddb700;
+  }
+  .flex-container-two .btn:hover {
+    display:block;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #faddb700;
+    font:garamond;
+    font-kerning: 5% ;
+    color: rgb(27, 27, 27);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+  }
+  .btn:active{
+    background-color: greenyellow;
+    display: block;
+    position: absolute;
+  }
+
+  .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #faddb727;
+  }
+  .box div{
+    width: 100%;
+    height: 200px;
+  }
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+  /* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: #faddb72d;
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-content: center;
+
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #faddb700;
+    margin-top: 20px;
+  }
+  .imgATT{
+    justify-content: center;
+    text-align: center;
+  }
+  .imgPaws{
+    text-align: center;
+  }
+  a{
+    color: black;
+    font-size: 15px;
+    text-align: right;
+  }
+  /*images*/
+  .four{
+    display: block;
+    margin-left: 370;
+    height:300px;
+    width: 408px;
+    left: 19.5%;
+    top: 268;
+  }
+ .five{
+   display:block;
+   margin-left:0;
+   left:0;
+   position:absolute;
+   top:-35;
+   opacity: 0.8;
+ }
+
+  
+  
