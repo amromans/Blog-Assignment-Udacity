@@ -1,0 +1,31 @@
+/*images*/
+/*Styling for image for AT&T Summer Learning logo*/
+.imgATT {
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+}
+/*Styling for image for Paws N' Claws logo*/
+.imgPaws {
+  text-align: center;
+  border-radius: 50%;
+}
+
+.four {
+  display: block;
+  margin-left: 370;
+  height: 300px;
+  width: 408px;
+  left: 19.5%;
+  top: 268;
+}
+/*Styling for big image on homepage*/
+.five {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  color: black;
+
+  opacity: 0.8;
+}

@@ -1,0 +1,226 @@
+@import "navbar.css";
+@import "imagestyles.css";
+@import "hrstyles.css";
+
+body {
+    font-family: garamond;
+    padding: 20px;
+    background: #f1f1f1;
+}
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding-top: 1px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-style: garamond;
+    border-bottom: rgba(0, 0, 0, 0.541);
+    font-weight: 100;
+    font-size: 30px;
+    font-stretch: extra-expanded;
+    font-variant: small-caps;
+}
+
+/*Style headings*/
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-decoration: underline #756d645d;
+}
+h4 {
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-decoration: underline #756d645d;
+}
+h5 {
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+/*Style paragraphs*/
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.flex-container {
+    font-weight: lighter;
+    position: relative;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    background-color: #faddb72d;
+}
+.flex-container > div {
+    font-weight: lighter;
+    background-color: #faddb72d;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    padding: 50px;
+    font-size: 30px;
+}
+.flex-container-two {
+    font-weight: lighter;
+    position: relative;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    background-color: #faddb727;
+}
+.flex-container-two .btn:hover {
+    display: block;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #faddb727;
+    font: garamond;
+    font-kerning: 5%;
+    color: rgb(27, 27, 27);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+}
+.btn:active {
+    background-color: #faddb727;
+    display: block;
+    position: absolute;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #faddb727;
+}
+.box div {
+    width: 100%;
+    height: 200px;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: #faddb72d;
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Add a card effect for articles */
+.card {
+    background-color: #faddb72d;
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-content: center;
+}
+/*Figcaption styling for images on Blog Posts page*/
+figcaption {
+    background-color: #faddb700;
+    color: black;
+    font-size: 11;
+    letter-spacing: 1px;
+    font-style: normal;
+    padding: 2px;
+    text-align: left;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  /*grid container for Get to know more about me section on homepage*/
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 200;
+    grid-template-rows: 200px 10px;
+    grid-gap: 20px;
+    height: 30%;
+    border: 10px;
+    background-color: #faddb72d;
+    padding: 10px;
+}
+
+.grid-container2 > div {
+    background-color: #faddb72d;
+    color: rgba(0, 0, 0, 0.795);
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline #756d645d;
+    letter-spacing: 3px;
+    padding: 20px 0;
+    font-size: 30px;
+}
+/*Grid container styling on About Me page*/
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+    background-color: #faddb700;
+    padding: 10px;
+  }
+  
+  .grid-container3 > div {
+    background-color: #faddb72d;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+  }
+/*Styling for button to About Me page*/
+.button {
+    background-color: #faddb700;
+    border: 1px;
+    color: rgba(0, 0, 0, 0.671);
+    padding: 30px 52px;
+    text-align: center;
+    text-decoration: underline black;
+    display: inline-block;
+    font-weight: 515;
+    top: -130;
+    height: 50px;
+    font-size: 18px;
+    margin: 4px 4px 4px 4px;
+    cursor: pointer;
+}
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #faddb700;
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+    font-size: 15px;
+    text-align: right;
+}
+/*Styling for the blockquote on About Me page*/
+blockquote {
+    text-align: center;
+    font-style: garamond;
+    letter-spacing: 7px;
+}

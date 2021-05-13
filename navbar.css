@@ -1,0 +1,47 @@
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: rgba(0, 0, 0, 0.849);
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 3px;
+  padding: 12px 14px;
+  text-decoration: underline;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #faddb71f;
+  color: black;
+}
+/*---button style--*/
+.button {
+  background-color: #faddb70a;
+  border: none;
+  color: black;
+  padding: 4px 15px;
+  position: relative;
+  text-align: center;
+  float: left;
+  text-decoration: underline;
+  display: block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*Nav bar hover effect*/
+.button:hover {
+  background-color: #faddb74b;
+}
+
+.button:active {
+  background-color: #faddb744;
+  box-shadow: 0 5px #faddb741;
+  transform: translateY(4px);
+}
